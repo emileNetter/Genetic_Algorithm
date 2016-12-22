@@ -34,6 +34,7 @@ function draw() {
 	for (var i =0; i< obstacles.length; i++){
 		obstacles[i].show();
 	}
+
 	lifetime.html("Lifetime : " + count);
 	lifetime.position(width+10,50);
 
@@ -46,6 +47,7 @@ function draw() {
 	}
 	gen.html("Generation Number : " + genNumber +  " **** \nMutation Rate : " + mutationRate *100 + "%");
 	gen.position(width+10,20);
+
 	// draw a nice target with 3 different colors
 	noStroke();
   	fill(40,53,117);

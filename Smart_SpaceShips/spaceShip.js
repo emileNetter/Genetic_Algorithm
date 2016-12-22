@@ -39,7 +39,7 @@ function Spaceship (dna) {
 			this.vel.add(this.acc);
 			this.pos.add(this.vel);
 			this.acc.mult(0);
-		}				
+		}			
 	}
 
 	this.show = function(){
